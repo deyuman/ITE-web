@@ -1,13 +1,62 @@
 body{
+    display:flex;
     margin:0px;
     background-color: powderblue;
-}
-footer{
-    display: flex;
     justify-content: center;
 }
+footer{
+    position: fixed;     
+       text-align: center;    
+       bottom: 2%; 
+       width: 100%;
+}
 h1{
+    position: fixed;
+    top: 2%;
     text-align: center;
     width: 100%;
     color:red;
+}
+.movies{
+    position: fixed;
+    right: 4%;
+    top:10%;
+}
+.actors{
+    position: fixed;
+    left: 4%;
+    top:10%;
+}
+img{
+    position: fixed;     
+    top: 10%; 
+    width: 500px;
+
+}
+h2{
+    text-align: center;
+    width:200px;
+    color: white;
+    background-color: red;
+    border-style: double;
+    border-color: blue;
+}
+p{
+    color:green;
+    font-size: 20px;
+    font-family: Verdana;
+}
+li{
+    color:yellow;
+    font-family: cursive;
+}
+video{
+    position: fixed;
+    top:40%;
+    left: 4%;
+}
+audio{
+    position: fixed;
+    top:40%;
+    right:4%;
 }
