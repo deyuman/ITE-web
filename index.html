@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen">
+    <meta charset="utf-8">
+    <title>Deyvi's Web page</title>
+    <script>
+     function init() {
+        var loc = window.location.href;
+        var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+        loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+     }
+     window.onload = init;
+
+    </script>
+</head>
+<body>
+    <h1>Welcome to my website</h1>
+    <div>
+        <h2>Favorite Movies</h2>
+       <ol>
+        <li>Captain America</li>
+       </ol>
+    </div>
+    <div>
+        <h2>
+            
+        </h2>
+        <ul>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+    
+    <footer>
+        <div>
+            <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+            <a id="vLink2"><strong> CSS </strong> Valid! </a>
+        </div>
+    </footer>
+</body>
+</html>
